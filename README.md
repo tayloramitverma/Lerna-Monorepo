@@ -46,4 +46,5 @@ Commands for setup and run:
 - `npx lerna add-caching`
 - `npx lerna run dev --scope=remixapp`
 - `npx lerna publish --no-private`
+- `lerna version --no-private` Manage all packages versions
 - `npx nx graph`
