@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "npm install && lerna bootstrap && lerna run --scope header --stream rollup && lerna run --scope footer --stream rollup"
+  },
   "devDependencies": {
     "lerna": "^6.6.1"
   },

@@ -35,3 +35,15 @@ packages/
 
 package.json
 ```
+
+Commands for setup and run:
+
+- `npx lerna@latest init` 
+- `npx lerna run build`
+- `npx lerna run build --scope=header` run for any package
+- `npx lerna run test`
+- `npx lerna run test --scope=header`
+- `npx lerna add-caching`
+- `npx lerna run dev --scope=remixapp`
+- `npx lerna publish --no-private`
+- `npx nx graph`
